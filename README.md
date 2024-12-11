@@ -1,27 +1,45 @@
-# 2D Game Engine
+## Game Engine
 
-A 2D game engine for a simple physics platformer game 
+A 2D game engine for a simple physics platformer game. 
 
-# How to run (Linux)
 
-Step 1: Download all the files. \
-Step 2: Install the SDL2 library using the following website: https://lazyfoo.net/tutorials/SDL/01_hello_SDL/linux/index.php. \
-Step 3: Open a terminal and go inside the `/game_engine` directory. \
-Step 4: Use the following command: 
+## How To Install & Run (Linux)
+
+1. Install the C++ compiler g++ using the following command:
+```bash
+sudo apt-get install g++
 ```
+
+2. To check which version is installed run the following command:
+```bash
+g++ --version
+```
+
+3. Install the SDL2 library using the following command:
+```bash
+sudo apt install libsdl2-image-dev
+```
+
+4. Clone the remote repository to your local machine using the following command:
+```bash
+git clone https://github.com/frederic-hallein/game-engine
+```
+5. To compile the project, go inside the `double_pendulum/` directory and run the following command: 
+```bash
 make all
 ``` 
-This should create a `main` executable file in the same directory.  \
-Step 5: Run the executable by using the following command: 
-```
+This should create a `main` executable file in the same directory. 
+
+6. Run the executable by using the following command: 
+```bash
 ./main
 ```
 
-# How to play
+## Controls
 
-Character control is done using the following keys: \
-A : move left \
-D : move right \
-SPACE : jump and double jump 
+Character control is done using the `wasd` keys. \
+`a`     : move left \
+`d`     : move right \
+`SPACE` : jump and double jump 
 
 
